@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to right, #1f1c2c, #928dab);
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  text-align: center;
+}
+
+.card {
+  background: #ffffff;
+  color: #000;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  max-width: 400px;
+  width: 100%;
+}
+
+input {
+  padding: 0.6rem;
+  width: 80%;
+  margin: 1rem 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.weather-info p {
+  margin: 0.5rem 0;
+}

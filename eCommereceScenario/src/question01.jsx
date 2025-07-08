@@ -1,8 +1,9 @@
-function ProductCard({ name, price }) {
+function ProductCard({ name, price, isLiked, onLikeToggle }) {
   return (
-    <div>
-      <h2>{name}</h2>
+    <div className="center product-card">
+      <h3>{name}</h3>
       <p>₹{price}</p>
+      <button onClick={onLikeToggle}>{isLiked ? "❤️ Liked" : "🤍 Like"}</button>
     </div>
   );
 }

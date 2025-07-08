@@ -1,10 +1,11 @@
-function SearchBar({ search, setSearch }) {
+function SearchBar({ value, onChange }) {
   return (
     <input
       type="text"
-      placeholder="Search products..."
-      value={search}
-      onChange={(e) => setSearch(e.target.value)}
+      value={value}
+      onChange={e => onChange(e.target.value)}
+      placeholder="Search..."
+      className="center"
     />
   );
 }
