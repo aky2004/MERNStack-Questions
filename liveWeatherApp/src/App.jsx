@@ -1,10 +1,10 @@
 // App.jsx
 import React, { useState } from 'react';
 import './App.css';
-import Weather from './weather'; // Corrected import path if weather.jsx is in the same directory as App.jsx
+import Weather from './weather'; 
 
 function App() {
-  const [city, setCity] = useState('');
+  const [city, setCity] = useState('Varanasi');
 
   return (
     <div className="App">
@@ -16,7 +16,6 @@ function App() {
           value={city}
           onChange={(e) => setCity(e.target.value)}
         />
-        {/* You need to pass the 'city' state as a prop to the Weather component */}
         <Weather city={city} />
       </div>
     </div>
