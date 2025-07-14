@@ -10,4 +10,5 @@ What you’ll find in this repo:
 ⭐ Many questions featured on platforms like CipherSchool, ensuring relevance and quality.
 🎯 Ideal for learners preparing for interviews, coding assessments, or anyone aiming to strengthen their MERN stack knowledge.
 🗂️ Well-organized content for easy navigation and effective self-study.
-Start exploring and take your MERN stack expertise to the next level! 🚀💪
+Start exploring and take your MERN stack expertise to the next level! 🚀
+
